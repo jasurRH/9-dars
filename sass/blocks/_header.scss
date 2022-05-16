@@ -44,6 +44,11 @@
   color: $main-text-color;
 }
 
+.nav__item:nth-child(3) > .nav__link:hover {
+	color: #333;
+	background-color: $main-text-color;
+}
+
 .burger-button{
   display: none;
   margin-left: auto;
